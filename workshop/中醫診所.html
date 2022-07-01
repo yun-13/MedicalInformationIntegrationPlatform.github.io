@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+
+<html lang = "zh-Hant" >
+
+    <head>
+        <title> 中醫診所 </title>
+        <meta charset="UTF-8">
+        <!-- 響應式網站 -->
+        <meta name="viewport" content="width=device-widyh", initial-scale="1.0">
+
+        <!-- Boostrap 導入程式 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+        
+        <!-- 連結 css -->
+        <link rel="stylesheet" href="中醫診所.css">
+
+    </head>
+
+    <body>
+        <!-- 輸入關鍵字到boostrap libary抓資料 -->
+        <!-- navbar是建立導覽列 navbar-expand-lg是將連結列出來 navbar-light是字的顏色 -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <!-- container是建立一個捯覽列的容器  -->
+            <div class="container-fluid">
+                <!-- 主頁Logo -->
+                <a class="navbar-brand" href="主頁.html">銘傳大學 醫療資訊整合平台</a>
+
+                <!-- 第一部分：手機版 -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#linkbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- 第二部分：桌上型電腦版 -->
+                <div class="collapse navbar-collapse" id="linkbar">
+                    <!-- navbar-nav將導覽列變成水平 me-auto將所有連結分開-->
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="大型醫院.html"> 大型醫院 </a>
+                        </li>  
+                        <li class="nav-item">
+                            <a class="nav-link" href="西醫診所.html"> 西醫診所 </a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="中醫診所.html"> 中醫診所 </a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="戒菸診所.html"> 戒菸診所 </a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="精神醫療.html"> 精神醫療 </a>
+                        </li>  
+                    </ul>
+                    <!-- 列出到右邊 -->
+                    <form class="d-flex">
+                        <input class="form-control me-3" type="search" placeholder="搜尋">
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <br>
+        <p style="font-size:45px;text-align:center;">龜山區中醫診所</p>
+        <div class="container-intro text-center">
+            <div class="row">
+                <!-- 第一個欄位 -->
+               <div class="col-sm-4">
+                 <a class="link" href="https://twypage.com/sd-17855-H-%E6%A1%83%E5%9C%92-%E9%80%9A%E7%99%BC%E4%B8%AD%E9%86%AB%E8%A8%BA%E6%89%80.html" target="_blank" style="font-size:30px;">通發中醫診所</a>
+                 <br>
+                 <br>
+                 <img class="pic" src="圖片/通發中醫診所.png" >
+                 <br>
+                 <a class="link" href="https://www.google.com/maps/place/%E9%80%9A%E7%99%BC%E4%B8%AD%E9%86%AB%E8%A8%BA%E6%89%80/@24.9915552,121.3338528,15z/data=!4m5!3m4!1s0x0:0xa88272dbb0bd6c11!8m2!3d24.9915561!4d121.3338533" target="_blank">地址：桃園市龜山區自強南路698號1樓</a>
+                 <p> 電話：03-3201779 </p>
+               </div>
+
+               <!-- 第二個欄位 -->
+               <div class="col-sm-4">
+                 <a class="link" href="https://www.mindclinic.tw/about.html" target="_blank" style="font-size:30px;">明德中醫診所</a>
+                 <br>
+                 <br>
+                 <img class="pic" src="圖片/明德中醫診所.png" >
+                 <br>
+                 <a class="link" href="https://www.google.com/maps/place/%E6%98%8E%E5%BE%B7%E4%B8%AD%E9%86%AB%E8%A8%BA%E6%89%80/@24.9946224,121.3356307,15z/data=!4m5!3m4!1s0x0:0xc666a34e39cf9dfd!8m2!3d24.9946188!4d121.3356321" target="_blank">地址：桃園市龜山區萬壽路二段1046號1樓</a>
+                 <p> 電話：03-3204328 </p>
+               </div>
+
+               <!-- 第三個欄位 -->
+               <div class="col-sm-4">
+                 <a class="link" href="https://www.fengzemed.com/%E9%BE%9C%E5%B1%B1%E9%A2%A8%E6%BE%A4%E4%B8%AD%E9%86%AB%E8%A8%BA%E6%89%80/" target="_blank" style="font-size:30px;">龜山風澤中醫診所</a>
+                 <br>
+                 <br>
+                 <img class="pic" src="圖片/龜山風澤中醫診所.png" >
+                 <br>
+                 <a class="link" href="https://www.google.com/maps/place/%E9%BE%9C%E5%B1%B1%E9%A2%A8%E6%BE%A4%E4%B8%AD%E9%86%AB%E8%A8%BA%E6%89%80/@24.9929804,121.3337908,15z/data=!4m5!3m4!1s0x0:0x7ed2335d973bb5c4!8m2!3d24.9953923!4d121.3372243?hl=zh-TW" target="_blank">地址：桃園市龜山區萬壽路二段982號1樓</a>
+                 <p> 電話：03-3500338 </p>
+               </div>
+            </div>
+        </div>
+        <a href="自動表格/中醫診所.html" class="btn btn-success" target="_blank"> 更多資訊 </a>
+    </body>
+
+
+
+</html>

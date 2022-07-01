@@ -1,0 +1,43 @@
+
+body{
+    background: rgb(151,200,212);
+    background: linear-gradient(90deg, rgba(151,200,212,1) 100%, rgba(151,200,212,1) 100%, rgba(151,200,212,1) 100%);
+    margin:0px;
+}
+
+.navbar{
+    background: rgb(11,133,68);
+    background: linear-gradient(90deg, rgba(11,133,68,0.9550342345505618) 0%, rgba(20,219,219,1) 50%, rgba(13,86,157,1) 100%);
+}
+
+li a{
+    color:black !important;
+    font-size: 20px;  
+    text-align: center;
+}
+
+li a:hover{
+    background-color: black;
+    color:antiquewhite !important;
+}
+
+.navbar-toggler{
+    background-color: lightgray;
+}
+
+.pic{
+    width:400px;
+    height:250px;
+}
+
+.container-intro{
+    padding:30px;
+    font-size:20px;
+    
+}
+
+.link{
+
+    color: black;
+    text-decoration: none;
+}
